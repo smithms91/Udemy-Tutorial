@@ -9,43 +9,45 @@
 }
 
 /* Nav Section */
-nav {
-  height: 50px;
-  background-color: #FFF0ED;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  nav {
+    height: 50px;
+    background-color: #FFF0ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-nav ul {
-  display: flex;
-}
+  nav ul {
+    display: flex;
+  }
 
-nav ul li {
-  list-style-type: none;
-  padding: 5px 10px;
-  margin: 0 10px;
-  text-transform: uppercase;
-  color: #333;
-  font-family: 'Roboto Condensed', sans-serif;
-  font-size: .8em;
-  cursor: pointer;
-}
+  nav ul li {
+    list-style-type: none;
+    padding: 5px 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #333;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: .8em;
+  }
 
-/* Banner */
+/* Banner Section */
 .banner {
   height: 500px;
   background-color: #F76840;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
+  text-transform: uppercase;
+  color: #fff;
 }
 
 .banner .logo {
   width: 200px;
   height: 200px;
-  background: #fff;
+  background-color: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -53,40 +55,35 @@ nav ul li {
   font-weight: 700;
   font-size: 3em;
   color: #F76840;
-  text-transform: uppercase;
-  margin-bottom: 25px;
 }
 
 .banner h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
   font-size: 5em;
-  text-transform: uppercase;
-  color: #fff;
 }
 
 .banner p {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
   font-size: 2em;
-  text-transform: uppercase;
-  color: #fff;
+  text-align: center;
 }
 
 /* What We Do */
 .service_section {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
+  justify-content: space-evenly;
   height: 600px;
 }
 
 .service_section h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .services {
@@ -96,6 +93,7 @@ nav ul li {
 
 .service {
   width: 20%;
+  font-family: 'Roboto Condensed', sans-serif;
 }
 
 .service img {
@@ -105,17 +103,13 @@ nav ul li {
 }
 
 .service h2 {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
   text-transform: uppercase;
-  font-size: 1.5em;
   text-align: center;
   margin: 10px 0;
+  font-weight: 400;
 }
 
 .service p {
-  font-family: 'Roboto Condensed', sans-serif;
-  font-weight: 400;
   line-height: 25px;
   text-align: justify;
 }
@@ -141,26 +135,26 @@ nav ul li {
 .recent_projects h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
   font-size: 2em;
+  text-transform: uppercase;
   color: #fff;
 }
 
 .projects {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
   width: 800px;
+  flex-wrap: wrap;
 }
 
 .project {
   width: 200px;
   height: 200px;
   background-color: #636363;
-  margin: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 10px;
 }
 
 .project img {
@@ -170,8 +164,8 @@ nav ul li {
 /* Our Team */
 .team_section {
   display: flex;
-  height: 500px;
   flex-direction: column;
+  height: 500px;
   justify-content: space-evenly;
   align-items: center;
 }
@@ -179,64 +173,60 @@ nav ul li {
 .team_section h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .team {
   display: flex;
   width: 75%;
-  justify-content: space-evenly;
 }
 
 .team_member {
-  width: 15%;
-  margin: 0 20px;
+  margin: 0 25px;
   font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
 }
 
 .team_member h2 {
   font-weight: 400;
-  text-transform: uppercase;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .team_member h3 {
   font-weight: 300;
-  text-transform: uppercase;
-  font-size: 1em;
   margin: 5px 0;
 }
 
 .team_member p {
   font-family: 'Roboto', sans-serif;
-  text-align: justify;
   font-weight: 400;
+  text-transform: initial;
   font-size: .9em;
 }
 
 /* Numbers */
 .numbers_section {
   background-color: #EA3628;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 300px;
   color: #fff;
 }
 
 .numbers_section h1 {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .numbers_section p {
   font-family: 'Roboto', sans-serif;
   font-weight: 100;
-  margin: 10px;
+  margin: 10px 0;
 }
 
 .numbers {
@@ -246,9 +236,8 @@ nav ul li {
 }
 
 .number {
-  margin: 20px;
   text-align: center;
-  font-family: 'Roboto', sans-serif;
+  margin: 20px;
 }
 
 .number h1 {
@@ -258,29 +247,26 @@ nav ul li {
 }
 
 .number p {
-  font-weight: 100;
   font-size: .9em;
   text-transform: uppercase;
 }
 
 /* Contact */
 .contact_section {
-  background: #000;
+  background-color: #000;
   color: #fff;
   font-family: 'Roboto Condensed', sans-serif;
   text-transform: uppercase;
+  height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 800px;
   text-align: center;
 }
 
 .contact_section h1 {
-  font-family: 'Roboto Condensed', sans-serif;
   font-weight: 400;
-  text-transform: uppercase;
   font-size: 2em;
 }
 
@@ -289,6 +275,7 @@ nav ul li {
   font-weight: 300;
   margin: 10px 0;
 }
+
 .contact_section form {
   display: flex;
   flex-direction: column;
@@ -299,14 +286,149 @@ nav ul li {
   background-color: #7CC576;
   color: #fff;
   text-transform: uppercase;
+  font-size: 1em;
   font-family: 'Roboto Condensed', sans-serif;
-  font-size: 1.2em;
 }
 
-.contact_section input,
-.contact_section textarea,
-.contact_section button {
+.contact_section form input,
+.contact_section form textarea,
+.contact_section form button {
   margin: 10px 0;
   padding: 10px;
   border: none;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1200px) {
+
+  /* Banner */
+  .banner h1 {
+    font-size: 3em;
+  }
+
+  .banner p {
+    font-size: 1.5em;
+  }
+
+  /* What We Do */
+  .service {
+    width: 30%;
+  }
+
+  /* Our Team */
+  .team {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+
+  /* What We Do */
+  .service_section {
+    height: 100%;
+    text-align: center;
+  }
+
+  .service_section h1 {
+    margin: 20px 0;
+  }
+
+  .services {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service {
+    width: 75%;
+  }
+
+  .service button {
+    margin: 20px 0;
+  }
+
+  /* Recent Projects */
+  .recent_projects {
+    height: 100%;
+  }
+
+  .recent_projects h1 {
+    margin: 20px 0;
+  }
+
+  .projects {
+    width: 600px;
+  }
+
+  /* Our Team */
+  .team_section {
+    height: 100%;
+  }
+
+  .team_section h1 {
+    margin: 20px 0;
+  }
+
+  .team {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .team_member {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  /* Nav */
+  nav {
+    height: 100%;
+  }
+  
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  nav ul li {
+    border-bottom: 1px solid #000;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* Banner */
+  .banner h1 {
+    font-size: 2em;
+  }
+
+  .banner p {
+    font-size: .9em;
+  }
+
+  /* Recent Projects */
+  .projects {
+    width: 100%;
+  }
+
+  /* Numbers */
+  .numbers_section {
+    height: 100%;
+  }
+
+  .numbers_section h1 {
+    margin: 20px 0;
+  }
+
+  .numbers {
+    width: auto;
+    flex-direction: column;
+  }
+
+  /* Contact Section */
+  .contact_section form {
+    width: auto;
+  }
 }
